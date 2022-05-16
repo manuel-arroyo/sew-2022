@@ -1,0 +1,39 @@
+/*
+Version 0.1 - 19/04/2022
+
+Author - Manuel Arroyo Garcia
+
+Proyecto S.E.W. 2022
+
+Estilos necesarios para la ventana del carrito
+*/
+
+:root {
+    --thr-color: #cbc9c7;
+    --nd-color: #f6f6f6;
+    --alternative-black: #5F5F60;
+    --background-color: #ecedef;
+}
+#map { 
+    height: 80vh; 
+    width: 100%;
+    border: 1px solid var(--alternative-black);
+}
+#shipment_direction {
+    text-align: center;}
+#shipment_direction > input {
+    width: 100%;
+    height: 5vh;
+}
+#shipment_direction > button {
+    margin: 1vh 0;
+    width: 30%;
+    height: 5vh;
+    background-color: #333333;
+    border: none;
+    color: white;
+    transition: box-shadow 0.15s;
+}
+#shipment_direction > button:hover {
+    box-shadow: -2px 3px 9px 0px #5F5F60;
+}
