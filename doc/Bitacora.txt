@@ -1,0 +1,130 @@
+16/02/2022
+- Creación de repositorio en github
+- https://www.youtube.com/watch?v=9BLoMGO-XcU
+
+25/02/2022
+Inicio de seisión
+La aplicación gestionará diferentes tipos de usuarios, "clientes" y "administradores". 
+Estos usuarios se almacenarán en una bbdd mySql llamada "sew2022" en localhost. 
+La aplicación permitirá el registro de nuevos usuarios clientes pero, los usuarios administrados solo podrán ser creado por otros administradores.
+Estos usuarios se almacenarán en la siguiente tabla:
+	"Usuarios":
+		id: int
+		name: varchar(32)
+		email: varchar(100)
+		password: varchar(32)
+		rol: text (Default: 'CLIENT')
+	
+
+A continuación vamos a empezar con el diseño de la página vamo a empeza con la cabecera dispoible para todas la páginas con navegación y logo.
+El logo se diseñará en svg con app.svgator.com
+
+28/02/2022
+Se va a realizar el CRUD de productos. Se creará una nueva tabla 
+https://stackoverflow.com/questions/15346959/regular-expression-for-checking-if-string-is-a-za-z0-9
+https://www.php.net/manual/es/mysqli-stmt.fetch.php
+\
+
+ElasticMail 
+14/03/2022
+CRUD de Productos
+Lo primero que necesitaremos es el html donde se accedara al CRUD de productos. Para ello crearemos Prodocts.html, inicialmente vacio.
+Para poder acceder a esta pagina desde la ventana de inicio necesitaremos una barra de navegacion.
+Esta barra de navegacion se llamara Nav.html y la incluiran todos los elementos html menos el login y el register.
+Vamos a crear una nueva tabla en la db, products:
+	"products":
+		id: INT
+		name: VARCHAR(255)
+		price: FLOAT
+		img_link: VARCHAR(255)
+        description: TEXT
+		text: BOOLEAN
+
+30/03/2022
+CRUD de productos
+https://www.ribosomatic.com/articulos/coleccion-de-tutoriales-sobre-ajax-php-y-mysql/
+https://www.webslesson.info/2016/12/php-ajax-crud-using-oops-update-or-edit-mysql-data.html
+
+31/03/2022
+https://www.webslesson.info/2016/12/php-ajax-crud-using-oops-update-or-edit-mysql-data.html
+https://stackoverflow.com/questions/17489109/ajax-request-and-php-class-functions
+
+02/04/2022
+No se puede reutilizar la barra de navegadcion porque e sun archivo php. Solución:
+https://stackoverflow.com/questions/21279901/php-gets-commented-out-in-html
+
+06/04/2022
+https://www.youtube.com/watch?v=fEiuolL_S7s
+
+07/04/2022
+https://www.w3schools.com/css/css_grid.asp
+Despues de colocar nuestar imágenes vamos a darles forma
+
+Para la fuente buscaremos un perteneciente a TTF/OTF and WOFF para asegurarnos que funcionan en todos los navegaodrez
+https://www.w3schools.com/css/css_font_google.asp
+
+08/04/2022
+https://kono.store/
+
+12/04/2022
+Restructuracion de la bd para que cumnpla con los requisitos de la propuesta
+
+13/04/2022
+Estilos para la lista de productos
+
+Venta para la visualización de un producto
+
+Añadimos el carrito (localStorage)
+
+14/04/2022
+Implementamos la session. Si no hay session no hay carrito
+
+19/04/2022
+EN php my admin ponemos rol por defecto
+
+Implementamos el mapa de leaflet, una vez funcionando usamos la api de geolaoction del w3c para
+definir el punto de partida.
+
+20/04/2022
+Select location
+
+Como leaflet no recupera paises y estados al pulsar en un mapa, usaremos un plugin geocoder 
+https://github.com/perliedman/leaflet-control-geocoder
+
+22/04/2022
+Añadir la opcion de leer archivos 
+https://www.lawebdelprogramador.com/codigo/JavaScript/2762-Como-leer-un-archivo-xml-del-servidor-con-JavaScript.html
+
+29/04/2022
+https://es.javascript.info/file
+leer archivo
+
+hablar de posibles mejoras para filtrar por fechas
+
+1/05/2022
+https://esri.github.io/esri-leaflet/examples/reverse-geocoding.html
+
+2/05/2022
+Crear factura cuando se realiza pedido.	
+
+Pero antes arreglar session ara incluir id
+
+3/05/2022
+Finalizar facturas
+
+4/05/2022
+COn la funcionalidad lista y la página lista para usar y cargar datos reales. Ahora solo falta aplicarle los estilos adecuados
+para que el usuario no tenga que realizar esfuerzo para comprender como funciona y como navegar por la página.
+Footer
+
+Refactorización el html our_products se pasa a llamar switches.
+
+Añadimos iframe a la intro
+
+06/05/2022
+Css de formularios
+
+13/05/2022
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Migrar de xampp a azure

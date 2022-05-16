@@ -1,0 +1,13 @@
+- Primero
+    name : "Steam Engine v2"
+    price: 91
+    imglink: "/public/img/keyboards/steam_engine.bmp"
+    description: "Teclado inspirado en los primeros ordenadores. Estilo vintage. Disponible esclusivamente con switches Azules."
+    stock: 1
+
+- Segundo
+    name : "World Tour-Tokyo"
+    price: 99
+    imglink: "/public/img/keyboards/world_tour_tokyo.bmp"
+    description: "Bienvenidos a Tokyo, epicentro de la cultura japonesa. Estilo primaveral ¡ Con teclas customizables!. Disponible esclusivamente con switches Rojos."
+    stock: 1
